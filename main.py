@@ -40,6 +40,8 @@ def start_game():
                 print('you clicked a button you clown')
             elif event.type == pygame.MOUSEWHEEL:
                 print('you did sutin with the middle mouse button')
+            elif event.type == pygame.KEYUP:
+                print('key was released!')
 
 def main():
     start_game()
