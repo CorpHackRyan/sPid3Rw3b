@@ -2,24 +2,19 @@ import sys
 import pygame
 
 def start_game():
-    # Define the background colour 
-    # using RGB color coding. 
-    # background_colour = (234, 212, 252) 
+    # Define the background colour using RGB color coding.     
     background_colour = (100, 100, 100)
     
-    # Define the dimensions of 
-    # screen object(width,height) 
+    # Define the dimensions of screen object(width,height) 
     screen = pygame.display.set_mode((800, 600))
 
     # Set the caption of the screen 
-    # pygame.display.set_caption('Geeksforgeeks') 
     pygame.display.set_caption('Ryans SpiderWeb design')
 
     # Fill the background colour to the screen     
     screen.fill(background_colour)
 
     # Update the display using flip 
-    # TO update teh display use the flip function as part of pygame.display();
     pygame.display.flip()
     
     # Variable to keep our game loop running     
