@@ -9,7 +9,6 @@ def start_game():
     
     # Define the dimensions of 
     # screen object(width,height) 
-    #screen = pygame.display.set_mode((300, 300)) 
     screen = pygame.display.set_mode((800, 600))
 
     # Set the caption of the screen 
